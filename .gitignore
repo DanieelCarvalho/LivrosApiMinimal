@@ -1,4 +1,28 @@
+# Arquivos e pastas do .NET
+**/bin/
+**/obj/
+**/Migrations/
+**/node_modules/
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Arquivos do Visual Studio
 .vs/
-.vs/**
 **/.vs/
-**/.vs/**
+*.user
+*.suo
+*.sln.docstates
+
+# Arquivos de configuração de usuário
+appsettings.Development.json
+appsettings.Production.json
